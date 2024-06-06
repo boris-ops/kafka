@@ -3,12 +3,12 @@ kafka:
   version: 3.7.0
   replicas: 3
   config:
-    offsets.topic.replication.factor: 3
-    transaction.state.log.replication.factor: 3
-    transaction.state.log.min.isr: 2
-    default.replication.factor: 3
-    min.insync.replicas: 2
-    inter.broker.protocol.version: "3.7"
+    offsetsTopicReplicationFactor: 3
+    transactionStateLogReplicationFactor: 3
+    transactionStateLogMinIsr: 2
+    defaultReplicationFactor: 3
+    minInsyncReplicas: 2
+    interBrokerProtocolVersion: "3.7"
     storage:
       size: 100Gi
       deleteClaim: false
