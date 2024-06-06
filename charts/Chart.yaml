@@ -1,0 +1,4 @@
+apiVersion: v2
+name: kafka
+description: Helm chart for Kubernetes
+appVersion: "1.16.0"
